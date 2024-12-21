@@ -1,0 +1,308 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.whole{
+    position: absolute;
+    transform: translate(60px,60px);
+}
+.hero{
+    height:200vh;
+    width: 200vh;
+    background-image: url(../Styles/landscape.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav1{
+    display:flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: absolute;
+    top: 10px;
+    transform: translate(50% );
+}
+.nav1 ul{
+    display: flex;
+    float: right;
+}
+.nav1 ul li{
+    padding: 10px 15px;
+    list-style-type:none;;
+}
+.name{
+    color: black;
+    font-size: 28px;
+    margin-left: 35px;
+    position: absolute;
+    top: 20px;
+}
+.span{
+    color:cornsilk;
+}
+.nav1 ul li a{
+    color: chocolate;
+    font-weight:  bold;
+    text-decoration: none;
+
+}
+.nav1 ul li a:hover{
+    color:blue;
+    transition: 1s;
+}
+.btn{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius:70px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.content{
+    top: 250px;
+    left:20px;
+    position: absolute;
+    transform: translate(30%,30px);
+
+}
+.content h3{
+   color:crimson;
+   font-size: 20px;
+   margin-bottom: 50px;
+}
+.content h1{
+    color:black;
+    font-size: 40px;
+}
+.content h4{
+    color:darkred;
+}
+.sub form{
+    width: 500px;
+    position: relative;
+}
+.sub form input:first-child{
+     display: inline-block;
+     width: 250px;
+     border: 3px solid crimson;
+      border-radius: 40px;
+      padding:8px 40px 8px 13px ;
+}
+.sub form input:last-child{
+    display: inline-block;
+     border: none;
+      border-radius: 40px;
+      background-color:crimson;
+      color: white;
+      padding:5px 8px  ;
+      top: 6px;
+      right: 255px;
+      position:absolute;
+     box-shadow: 0px 0px 10px black;
+}
+.about1{
+    width:200vh;
+    padding: 100px 0px;
+    background-color: darkgray;
+} 
+.about1 img{
+    height:300px ;
+    font-weight: auto;
+    margin-left: 25px;
+}
+.about_content h3{
+     color: brown;
+     font-size: 35px;
+     margin-left:50px;
+     word-spacing: 3px;
+}
+.about_content h5{
+    color: black;
+    font-size: 25px;
+    margin-left:50px;
+    word-spacing: 3px;
+}
+.about_content p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 50px;
+    margin-left:50px;
+    margin-right:40px;
+    word-spacing: 3px;
+    text-align: justify;
+}
+.main{
+    display: flex;
+}
+.btn1{
+    background-color:brown;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-left:50px ;
+    width: 200px;
+    height: 30px;
+}
+.btn1:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+.skills{
+    background:gray;
+    width: 200vh;
+    padding: 80px 100px;
+}
+.title h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+}
+.card{
+    width: 250px;
+    height: 350px;
+    background:darkslategray;
+    border-radius: 40px;
+    padding: 20px 35px;
+    margin: 20px;
+}
+.card h4{
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+}
+.para p{
+    color: darkgray;
+    text-align: justify;
+    font-size: 15px;
+    line-break: 30p;
+    margin-top: 20px;
+}
+.button{
+    position: absolute;
+    transform: translate(45px,15px);
+    text-decoration: none;
+    font-size: 13px;
+    background-color:white;
+    color: black;
+    width: 80px;
+    height: 25px;
+    padding:5px 9px;
+    border-radius: 40px;
+    box-shadow:black;
+}
+.button:hover{
+    background-color: gray;
+    transition: 1s;
+    cursor: pointer;
+}
+.button:hover
+{
+    transform: scale(1);
+}
+.card i{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin: 3px 65px;
+}
+.hire{
+    background:darkslategray;
+    width: 200vh;
+    height: 30vh;
+    padding: 50px 40px;
+}
+.hire h3{
+    color: white;
+    text-align: center;
+}
+.hire .button{
+    position: absolute;
+    transform: translate(500px,15px);
+    text-decoration: none;
+    font-size: 13px;
+    background-color:white;
+    color: black;
+    width: 80px;
+    height: 25px;
+    padding:5px 18px;
+    border-radius: 40px;
+    box-shadow:black;
+}
+.hire .button:hover{
+    background-color:red;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer{
+   background-color: black;
+   width: 200vh;
+   height: 40vh;
+}
+.footer h3{
+    text-align: center;
+    padding: 30px ;
+    color: white;
+    font-size: 20px;
+    font-style: bold;  
+}
+.footer h5{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    font-style: italic; 
+}
+.social-media i{
+    color:blueviolet;
+    padding: 8px;
+    transform: translate(560px);
+}
+.homeid i{
+    color: white;
+    font-size: 15px;
+    border: 3px  solid white;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 40px;
+}
+.main .homeid i{
+    position: absolute;
+    transform: translate(380px,310px);
+    padding: 1px;
+}
+.title .homeid i{
+    position: absolute;
+    transform: translate(380px,445px);
+    padding: 1px;
+
+}.hire .homeid i{
+    position: absolute;
+    transform: translate(545px,260px);
+    padding: 1px;
+}
+.homeid i:hover{
+       color: yellow;
+       background-color:black;
+       transition: 2s;
+}
+

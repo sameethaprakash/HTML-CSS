@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+}
+table{
+    width: 900px;
+    height:900px;
+    color: black;
+    border: 3px solid black;
+}
+td.white{
+    background-color: white;
+}
+td.black{
+    background-color: black;
+}
+/*.chess-board{
+    width: 800px;
+    height: 800px;
+    border: 3px solid black;
+}
+.row1{
+    width:800px;
+    height:100px ;
+    border: 3px solid black;
+}
+.r1,.r2,.r3,.r4,.r5,.r6,.r7,.r8{
+    width: 95px;
+    height: 95px;
+    border: 3px solid black;
+    float: left;
+}
+.r1,.r3,.r5,.r7{
+    background-color: black;
+}*/
+/*.carrom{
+    border:3px solid black ;
+    width:1000px;
+    height:1000px;
+}
+.border{
+    border: 100px solid black;
+    width: 800px;
+    height: 800px;
+}
+.circle1,.circle2
+{
+      border-radius: 100px;
+      width:100px;
+      height:100px;
+      border: 3px solid black;
+      background-color: black;
+}
+.border1{
+    width:800px ;
+    height: 100px;
+    
+}
+.b1{
+    width: 100px;
+    border: 3px solid red;
+    float:left;
+    width: 100px;
+    height:800px;
+    border-top: 3px solid black;
+   border: 3px solid brown;
+    float: right;
+}
+.b2{
+    width: 100px;
+    height:800px;
+    border: 3px solid brown;
+    float: left;
+}
+.line{
+    width: 600px;
+    border-top: 3px solid black;
+    border: 3px solid brown;
+    float:right;
+
+}*/
+
+    
+
+
+

@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+}
+.sample{
+    width:900px;
+    height: 750px;
+    border: 3px solid cornflowerblue;
+}
+.header{
+    width: 900px;
+    height: 80px;
+    border:3px solid pink;
+    background-color: pink;
+}
+.h1, .h2, .h3{
+    height: 70px;
+    border: 3px solid blue;
+    background-color: cornflowerblue;
+    float:left;
+}
+.menu{
+    width: 900px;
+    height: 35px;
+    border:3px solid black;
+    background-color: gray;
+}
+.m1, .m2, .m3, .m4{
+    width:220px;
+    height: 35px;
+    border: 3px solid white;
+    background-color:darkslategray;
+    float:left;
+}
+.p{
+    position: absolute;
+    color: white;
+    padding: 2px 5px 2px 5px;
+}
+.content{
+    width:900px;
+    height: 600px;
+    border: 3px solid brown;
+}
+.content>div{
+    height: 555px;
+    border: 3px solid green;
+    float: left;
+}
+.c1{
+    width:350px ;
+}
+.c2{
+    width: 535px;
+}
+.footer{
+    width: 900px;
+    height: 50px;
+    border: 3px solid red;
+}
+.f1,.f2{
+    width: 250px;
+    height: 50px;
+    border:3px solid blueviolet;
+    float: right;
+}
+
+
+
+
+
